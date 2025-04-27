@@ -97,11 +97,6 @@ export default function ComingSoonWebsite() {
           <span className="block mt-2 text-stone-300">COMING SOON</span>
         </h1>
 
-        {/* Description */}
-        <p className="max-w-lg text-center text-stone-300 mb-12 leading-relaxed">
-          Our full website is in the works. Soon, you'll be able to explore our stunning design projects, 
-          innovative concepts, and transformative spaces that redefine luxury living.
-        </p>
 
         {/* Countdown Timer */}
         <div className="w-full max-w-md mb-12">
@@ -125,6 +120,14 @@ export default function ComingSoonWebsite() {
             </div>
           </div>
         </div>
+
+        {/* Description */}
+        <p className="max-w-lg text-center text-stone-300 mb-12 leading-relaxed">
+          Our full website is in the works. Soon, you'll be able to explore our stunning design projects, 
+          innovative concepts, and transformative spaces that redefine luxury living.
+        </p>
+
+        
 
         {/* Progress Indicator */}
         <div className="w-full max-w-md mb-12">
