@@ -99,7 +99,7 @@ export default function ComingSoonWebsite() {
 
         {/* Description */}
         <p className="max-w-lg text-center text-stone-300 mb-12 leading-relaxed">
-          Our full portfolio website is in the works. Soon, you'll be able to explore our stunning design projects, 
+          Our full website is in the works. Soon, you'll be able to explore our stunning design projects, 
           innovative concepts, and transformative spaces that redefine luxury living.
         </p>
 
