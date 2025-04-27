@@ -103,25 +103,6 @@ export default function ComingSoonWebsite() {
           innovative concepts, and transformative spaces that redefine luxury living.
         </p>
 
-        {/* Progress Indicator */}
-        <div className="w-full max-w-md mb-12">
-          <div className="flex justify-between text-xs text-stone-400 mb-2">
-            <span>Website Progress</span>
-            <span>{progressValue}%</span>
-          </div>
-          <div className="h-1 w-full bg-stone-700 rounded-full overflow-hidden">
-            <div 
-              className="h-full bg-stone-200 transition-all duration-1000 ease-out" 
-              style={{ width: `${progressValue}%` }}
-            ></div>
-          </div>
-          <div className="flex justify-between text-xs text-stone-500 mt-2">
-            <span>Design</span>
-            <span>Development</span>
-            <span>Launch</span>
-          </div>
-        </div>
-
         {/* Countdown Timer */}
         <div className="w-full max-w-md mb-12">
           <h3 className="text-center text-stone-300 mb-4">Launching in</h3>
@@ -144,6 +125,27 @@ export default function ComingSoonWebsite() {
             </div>
           </div>
         </div>
+
+        {/* Progress Indicator */}
+        <div className="w-full max-w-md mb-12">
+          <div className="flex justify-between text-xs text-stone-400 mb-2">
+            <span>Website Progress</span>
+            <span>{progressValue}%</span>
+          </div>
+          <div className="h-1 w-full bg-stone-700 rounded-full overflow-hidden">
+            <div 
+              className="h-full bg-stone-200 transition-all duration-1000 ease-out" 
+              style={{ width: `${progressValue}%` }}
+            ></div>
+          </div>
+          <div className="flex justify-between text-xs text-stone-500 mt-2">
+            <span>Design</span>
+            <span>Development</span>
+            <span>Launch</span>
+          </div>
+        </div>
+
+        
 
         {/* Newsletter Signup */}
         <div className="w-full max-w-md mb-16">
